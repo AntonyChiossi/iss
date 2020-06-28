@@ -90,11 +90,7 @@ As for the _DyNE Server_, it provides a docker container holding an API server, 
 The DyNE agent implements a simple Websocket client using Tornado. Once a task is received it performs a network scan using IVRE’s tools and the result is sent back to the server. As can be seen below an in memory key value database, Redis, is used to keep track of network devices discovered during tasks executions.
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](progetto_natali-Page-1.png "image_tooltip")
 
 
 
