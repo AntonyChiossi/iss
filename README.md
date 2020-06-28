@@ -2,12 +2,12 @@
 
 A NCI Agency cyber security team has the need to know what devices are composing their internal networks and what operating systems and services are running in such devices. A web application called **[Censys](https://censys.io/)** solves this problem but it is focused on the Internet  (it has mapped the whole internet) and despite being open source it can not be used within local networks. 
 
-On the other hand, a full [open sourced project (available on Github)](https://github.com/cea-sec/ivre/) called **IVRE **was built with the purpose of mapping internal networks and making the results available through a web application just as Censys does.
+On the other hand, a full [open sourced project (available on Github)](https://github.com/cea-sec/ivre/) called **IVRE** was built with the purpose of mapping internal networks and making the results available through a web application just as Censys does.
 
 
 # Introduction 
 
-The main goal of this project is to provide a **Censys** like tool for internal networks. After an exhaustive research an open source project called **IVRE **was chosen as the perfect candidate to start with. _IVRE** **_is a network recon framework developed and open source by the _French Alternative Energies and Atomic Energy Commission_ (**[CEA](http://www.cea.fr/)**), designed for mapping internal networks of organizations with thousands of devices and with an eye for sensible devices like SCADA ones. The tool is ready to use but the configuration and management are not so user friendly as it requires system administrator skills. The idea is to build something on top of IVRE or better do an almost complete system re-engineering of _IVRE _to gain free maintenance. The name chosen for this project is **DyNE** (Dynamic Network Enumeration). 
+The main goal of this project is to provide a **Censys** like tool for internal networks. After an exhaustive research an open source project called **IVRE** was chosen as the perfect candidate to start with. IVRE is a network recon framework developed and open source by the _French Alternative Energies and Atomic Energy Commission_ (**[CEA](http://www.cea.fr/)**), designed for mapping internal networks of organizations with thousands of devices and with an eye for sensible devices like SCADA ones. The tool is ready to use but the configuration and management are not so user friendly as it requires system administrator skills. The idea is to build something on top of IVRE or better do an almost complete system re-engineering of _IVRE _to gain free maintenance. The name chosen for this project is **DyNE** (Dynamic Network Enumeration). 
 
 
 # Requirements
