@@ -40,7 +40,7 @@ Glossary:
 
 # Problem analysis
 
-**_IVRE_**comes out of the shelf as a complete solution however due to the fact that the project has been conceived several years ago, some of its legacy components are not implemented using modern technologies. This problem implies that two main components of IVRE such as its API and Agent need a complete reengineering and code rewrite. On the other hand _IVRE_’s most important component, the tool that collects and enriches network data can be used as a third party tool and it’s pretty easy to build something on top of them. 
+**_IVRE_** comes out of the shelf as a complete solution however due to the fact that the project has been conceived several years ago, some of its legacy components are not implemented using modern technologies. This problem implies that two main components of IVRE such as its API and Agent need a complete reengineering and code rewrite. On the other hand _IVRE_’s most important component, the tool that collects and enriches network data can be used as a third party tool and it’s pretty easy to build something on top of them. 
 
 
 ## Components
