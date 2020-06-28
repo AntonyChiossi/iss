@@ -40,7 +40,7 @@ Glossary:
 
 # Problem analysis
 
-**_IVRE_ **comes out of the shelf as a complete solution however due to the fact that the project has been conceived several years ago, some of its legacy components are not implemented using modern technologies. This problem implies that two main components of IVRE such as its API and Agent need a complete reengineering and code rewrite. On the other hand _IVRE_’s most important component, the tool that collects and enriches network data can be used as a third party tool and it’s pretty easy to build something on top of them. 
+**_IVRE_**comes out of the shelf as a complete solution however due to the fact that the project has been conceived several years ago, some of its legacy components are not implemented using modern technologies. This problem implies that two main components of IVRE such as its API and Agent need a complete reengineering and code rewrite. On the other hand _IVRE_’s most important component, the tool that collects and enriches network data can be used as a third party tool and it’s pretty easy to build something on top of them. 
 
 
 ## Components
@@ -49,9 +49,9 @@ The **web server** is the only service exposed. This means that any external com
 
 The **client** (browsers) must have the capabilities of popular browsers. In particular this implies that they must serve a modern SPA to the final user.
 
-The **API server **must implement the business logic and support RESTful API and full-duplex communication channels. This component is the only one that can communicate with the MQTT Broker.
+The **API server** must implement the business logic and support RESTful API and full-duplex communication channels. This component is the only one that can communicate with the MQTT Broker.
 
-The **MQTT Broker **must provide a real-time communication service for internal components communications. In particular it has to provide a Publish-Subscribe messaging API that takes in consideration performance and security.
+The **MQTT Broker**must provide a real-time communication service for internal components communications. In particular it has to provide a Publish-Subscribe messaging API that takes in consideration performance and security.
 
 The **DyNE Agent** is a simple component that receives instructions, executes some task and sends back the result of such task using the same communication channel. The agent also needs to be equipped with a lightweight in memory database.
 
