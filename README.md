@@ -62,7 +62,7 @@ The **DyNE Agent** is a simple component that receives instructions, executes so
 
 1. An user uses the SPA to create a _Task_
 2. The _task_ creation is done by using the _data API_
-3. The _API server_ receives the payload, stores a copy of it in a NOSql database and sends it using _Managements Events_ to the _Agent _of interest. This last step must be done by using the Publish-Subscribe messaging API provided by the MQTT broker.
+3. The _API server_ receives the payload, stores a copy of it in a NOSql database and sends it using _Managements Events_ to the _Agent_ of interest. This last step must be done by using the Publish-Subscribe messaging API provided by the MQTT broker.
 4. The _Agent_ receives the _task_, performs the required action and sends the result back using _Managements Events_. As for the step above, this must be done by using the Publish-Subscribe messaging API provided by the MQTT broker.
 5. The _API Server_ receives the _task’s result, stores_ it in the NOSql database and sends it to the _client_ (brower) of interest using _Managements Events_.
 6. The _client_ (brower) notifies the user that a new result is available and displays it.
@@ -100,4 +100,4 @@ The DyNE agent implements a simple Websocket client using Tornado. Once a task i
 
 # Deployment
 
-The two main components, the DyNE _server_ and _agent _can be provided and deployed as independent docker containers. In particular in case of need of scalability, MongoDB can be _dockerized_ too using a replica set configuration that provides data redundancy and increases data availability.
+The two main components, the DyNE _server_ and _agent_ can be provided and deployed as independent docker containers. In particular in case of need of scalability, MongoDB can be _dockerized_ too using a replica set configuration that provides data redundancy and increases data availability.
